@@ -1,7 +1,8 @@
 # Cross-Site Scripting (XSS)
 
-![Vulnerability: XSS](https://img.shields.io/badge/vulnerability-XSS-critical-red)  
-![Tools: Burp Suite, OWASP ZAP](https://img.shields.io/badge/tools-Burp%20Suite%2C%20OWASP%20ZAP-blue)
+![Critical Vulnerability](https://img.shields.io/badge/Vulnerability-XSS-critical-red)  
+![Tools Used](https://img.shields.io/badge/Tools-Burp%20Suite%2C%20OWASP%20ZAP-blue)
+
 
 
 ## Overview 📖
