@@ -36,6 +36,8 @@ Each section showcases sanitized findings, the tools and methodologies used, and
 |-----------------|--------------------------------|
 | Burp Suite      | Web application testing       |
 | Kali Linux      | Penetration testing platform  |
+| Dalfox          | XSS vulnerability scanning    |
+| XSStrike        | Automated XSS payload testing |
 | Nessus          | Vulnerability scanning        |
 | OWASP ZAP       | Web application security      |
 | Splunk          | Log and data analysis         |
