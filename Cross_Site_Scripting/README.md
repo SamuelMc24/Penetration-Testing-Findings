@@ -1,6 +1,8 @@
-# Cross-Site Scripting (XSS) 
+# Cross-Site Scripting (XSS)
 
-![XSS Badge](https://img.shields.io/badge/vulnerability-XSS-critical-red) ![Tools Badge](https://img.shields.io/badge/tools-Burp%20Suite%2C%20OWASP%20ZAP-blue)
+![Vulnerability: XSS](https://img.shields.io/badge/vulnerability-XSS-critical-red)  
+![Tools: Burp Suite, OWASP ZAP](https://img.shields.io/badge/tools-Burp%20Suite%2C%20OWASP%20ZAP-blue)
+
 
 ## Overview 📖
 Cross-Site Scripting (XSS) is a web vulnerability that allows attackers to inject malicious scripts into webpages viewed by other users. These scripts can execute in the browser context, enabling attackers to steal sensitive information, hijack sessions, or redirect users to malicious sites.
