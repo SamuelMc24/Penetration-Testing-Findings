@@ -53,6 +53,3 @@ This repository is designed to demonstrate my hands-on experience with penetrati
 
 ## Disclaimer ⚠️
 All examples provided in this repository are sanitized and generalized to remove any sensitive or identifying information. They are intended for demonstration purposes only and do not disclose any proprietary or government-related details.
-
-## Disclaimer
-All examples provided in this repository are sanitized and generalized to remove any sensitive or identifying information. They are intended for demonstration purposes only and do not disclose any proprietary or government-related details.
