@@ -3,11 +3,12 @@
 ![Repository Overview](https://img.shields.io/badge/status-active-brightgreen) ![License](https://img.shields.io/badge/license-MIT-green) ![Technologies](https://img.shields.io/badge/tools-Burp%20Suite%2C%20Kali%20Linux-blue)
 
 ## Table of Contents
-- [Overview](#overview-%F0%9F%93%96)
-- [Categories of Findings](#categories-of-findings-%F0%9F%93%88)
-- [Tools Used](#tools-used-%F0%9F%94%A7)
-- [Purpose](#purpose-%F0%9F%8C%90)
-- [Disclaimer](#disclaimer-%E2%9A%A0%EF%B8%8F)
+- [Overview](#overview)
+- [Categories of Findings](#categories-of-findings)
+- [Tools Used](#tools-used)
+- [Purpose](#purpose)
+- [Disclaimer](#disclaimer)
+
 
 ## Overview 📖
 This repository highlights real-world vulnerabilities exploited during my time as a Penetration Tester at ECS Federal, where I contributed to securing government systems through both continuous monitoring and scheduled penetration testing. Working under a contract covering over 25,000 hosts across various government bureaus, I identified and exploited vulnerabilities in systems, networks, and web applications.
