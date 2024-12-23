@@ -1,14 +1,13 @@
 # Penetration Testing Findings
 
-![Repository Overview](https://img.shields.io/badge/status-active-brightgreen) ![License](https://img.shields.io/badge/license-MIT-green) ![Technologies](https://img.shields.io/badge/tools-Burp%20Suite%2C%20Kali%20Linux-blue)
+![Repository Overview](https://img.shields.io/badge/status-active-brightgreen) ![License](https://img.shields.io/badge/license-MIT-green) ![Technologies](https://img.shields.io/badge/tools-Burp%20Suite%2C%20Kali%20Linux%2C%20Dalfox%2C%20XSStrike-blue)
 
 ## Table of Contents
-- [Overview](#overview)
-- [Categories of Findings](#categories-of-findings)
-- [Tools Used](#tools-used)
-- [Purpose](#purpose)
-- [Disclaimer](#disclaimer)
-
+- [Overview 📖](#overview-📖)
+- [Categories of Findings 📊](#categories-of-findings-📊)
+- [Tools Used 🔧](#tools-used-🔧)
+- [Purpose 🌐](#purpose-🌐)
+- [Disclaimer ⚠️](#disclaimer-⚠️)
 
 ## Overview 📖
 This repository highlights real-world vulnerabilities exploited during my time as a Penetration Tester at ECS Federal, where I contributed to securing government systems through both continuous monitoring and scheduled penetration testing. Working under a contract covering over 25,000 hosts across various government bureaus, I identified and exploited vulnerabilities in systems, networks, and web applications.
