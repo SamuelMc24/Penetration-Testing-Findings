@@ -1,9 +1,6 @@
 # Cross-Site Scripting (XSS)
 
-![Critical Vulnerability](https://img.shields.io/badge/Vulnerability-XSS-critical-red)  
-![Tools Used](https://img.shields.io/badge/Tools-Burp%20Suite%2C%20OWASP%20ZAP-blue)
-
-
+![Tools Used](https://img.shields.io/badge/Tools-Burp%20Suite%2C%20OWASP%20ZAP%2C%20Dalfox%2C%20XSStrike-blue)
 
 ## Overview 📖
 Cross-Site Scripting (XSS) is a web vulnerability that allows attackers to inject malicious scripts into webpages viewed by other users. These scripts can execute in the browser context, enabling attackers to steal sensitive information, hijack sessions, or redirect users to malicious sites.
@@ -36,6 +33,14 @@ This repository contains sanitized examples of XSS vulnerabilities I identified 
 ## Tools Used 🛠️
 | Tool            | Purpose                        |
 |-----------------|--------------------------------|
+| Wayback Machine | Historical content analysis   |
+| Dalfox          | XSS vulnerability scanning    |
+| XSStrike        | Automated XSS payload testing |
+| Burp Suite      | Web application testing       |
+| OWASP ZAP       | Web application security      |
+| Nuclei          | Vulnerability automation      |
+| Custom Payloads | Crafting and testing exploits |
+| Browser DevTools| Script debugging and validation|
 | Burp Suite      | Web application testing       |
 | OWASP ZAP       | Web application security      |
 | Nuclei          | Vulnerability automation      |
