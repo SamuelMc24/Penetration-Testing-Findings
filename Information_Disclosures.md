@@ -8,6 +8,7 @@ Information disclosure vulnerabilities occur when sensitive data is exposed to u
 ---
 
 ## Notable Examples 🚨
+
 ### Exposed `.htaccess` Files
 - **Description:** Publicly accessible `.htaccess` files revealed server security mechanisms such as input sanitization rules, directory restrictions, and custom redirects.
 - **Impact:** Provided attackers with insights into the server's defensive structure, increasing the risk of bypassing protections.
@@ -22,6 +23,11 @@ Information disclosure vulnerabilities occur when sensitive data is exposed to u
 - **Description:** Publicly downloadable `web.config` and `.editorconfig` files exposed backend server configurations.
 - **Impact:** Potential exposure of database connection strings, application settings, and other sensitive information.
 - **Recommendation:** Remove unnecessary files or restrict access to authenticated users only.
+
+### PHP Information Disclosure
+- **Description:** A publicly accessible PHP page (`/test2.php`) exposed detailed server configuration data, including PHP version, server API type, and registered transports.
+- **Impact:** Provided attackers with reconnaissance details to craft targeted attacks against the host.
+- **Recommendation:** Restrict access to sensitive pages, remove public PHP information pages, and apply firewall rules to block access to sensitive URLs.
 
 ---
 
