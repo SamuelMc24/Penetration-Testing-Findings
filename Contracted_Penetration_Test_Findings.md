@@ -5,11 +5,12 @@ This section highlights findings from targeted penetration tests conducted durin
 ---
 
 ## Findings Index
-- [🌐 External Redirect Misconfiguration](#🌐-external-redirect-misconfiguration)
-- [💥 Web Server Denial of Service (DoS)](#💥-web-server-denial-of-service-dos)
-- [🔒 Password Autocomplete Enabled](#🔒-password-autocomplete-enabled)
-- [🔁 Session Signout Error](#🔁-session-signout-error)
-- [⚙️ ServiceNow Misconfigurations](#⚙️-servicenow-misconfigurations)
+- [External Redirect Misconfiguration](#🌐-external-redirect-misconfiguration)
+- [Web Server Denial of Service (DoS)](#💥-web-server-denial-of-service-dos)
+- [Password Autocomplete Enabled](#🔒-password-autocomplete-enabled)
+- [Session Signout Error](#🔁-session-signout-error)
+- [ServiceNow Misconfigurations](#⚙️-servicenow-misconfigurations)
+
 
 ---
 
