@@ -22,8 +22,8 @@ Each section showcases sanitized findings, the tools and methodologies used, and
 
 ## Categories of Findings 📊
 - [Cross-Site Scripting (XSS)](./Cross_Site_Scripting)
-- [End-of-Life (EOL) Software](./EOL_Software)
-- [Information Disclosures](./Information_Disclosures)
+- [End-of-Life (EOL) Software](./EOL_Software.md)
+- [Information Disclosures](./Information_Disclosures.md)
 - [FTP Misconfigurations](./FTP_Misconfigurations)
 - [WordPress User Enumeration](./WordPress_User_Enumeration)
 - [PHP Findings](./PHP_Findings)
