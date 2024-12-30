@@ -69,7 +69,6 @@ Connection: keep-alive
 
 - [Keycloak Security Documentation](https://www.keycloak.org/docs/latest/server_admin/#security)
 - [OWASP Top 10: A5-Security Misconfiguration](https://owasp.org/www-project-top-ten/)
-- [CVE-2022-XXX](https://cve.mitre.org/) – Example CVE relating to Keycloak vulnerabilities (adjust for relevance).
 
 ---
 
