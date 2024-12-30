@@ -5,16 +5,16 @@ This section highlights findings from targeted penetration tests conducted durin
 ---
 
 ## Findings Index
-- [External Redirect Misconfiguration](#🌐-external-redirect-misconfiguration)
-- [Web Server Denial of Service (DoS)](#💥-web-server-denial-of-service-dos)
-- [Password Autocomplete Enabled](#🔒-password-autocomplete-enabled)
-- [Session Signout Error](#🔁-session-signout-error)
-- [ServiceNow Misconfigurations](#⚙️-servicenow-misconfigurations)
+- [External Redirect Misconfiguration](#external-redirect-misconfiguration)
+- [Web Server Denial of Service (DoS)](#web-server-denial-of-service-dos)
+- [Password Autocomplete Enabled](#password-autocomplete-enabled)
+- [Session Signout Error](#session-signout-error)
+- [ServiceNow Misconfigurations](#servicenow-misconfigurations)
 
 
 ---
 
-### 🌐 External Redirect Misconfiguration
+### External Redirect Misconfiguration 🌐
 
 #### Overview
 An external redirect vulnerability was identified in a public-facing application during a contracted penetration test. This vulnerability allows attackers to redirect users to malicious websites by manipulating the `TransferUrl` parameter.
@@ -40,7 +40,7 @@ https://verification.nws.noaa.gov/services/public/transfer.aspx?TransferUrl=http
 
 ---
 
-### 💥 Web Server Denial of Service (DoS)
+### Web Server Denial of Service (DoS) 💥
 
 #### Overview
 A Denial of Service (DoS) vulnerability was identified in a web server due to its inability to handle large or infinite HTTP header requests.
@@ -67,7 +67,7 @@ Referer: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX...
 
 ---
 
-### 🔒 Password Autocomplete Enabled
+### Password Autocomplete Enabled 🔒
 
 #### Overview
 A web form contained password fields with the `autocomplete` attribute enabled, which may allow passwords to be saved in browsers and retrieved by unauthorized users.
@@ -85,7 +85,7 @@ A web form contained password fields with the `autocomplete` attribute enabled, 
 
 ---
 
-### 🔁 Session Signout Error
+### Session Signout Error 🔁
 
 #### Overview
 During testing, a session signout error was observed, which could lead to user frustration or unauthorized access if sessions are not invalidated correctly.
@@ -105,7 +105,7 @@ During testing, a session signout error was observed, which could lead to user f
 
 ---
 
-### ⚙️ ServiceNow Misconfigurations
+### ServiceNow Misconfigurations ⚙️
 
 #### Overview
 ServiceNow instances were observed to expose sensitive functionality or misconfigured options, potentially leading to unauthorized data access or manipulation.
