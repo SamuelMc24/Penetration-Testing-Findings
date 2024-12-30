@@ -24,13 +24,14 @@ https://verification.nws.noaa.gov/services/public/transfer.aspx?TransferUrl=http
 ```
 
 #### Impact
-- **Phishing**: Redirecting users to lookalike pages to steal credentials.
-- **Malware Distribution**: Tricking users into downloading malicious files.
-- **Brand Damage**: Users may associate the malicious activity with the legitimate domain.
+- **Phishing:** Redirecting users to lookalike pages to steal credentials.
+- **Malware Distribution:** Tricking users into downloading malicious files.
+- **Brand Damage:** Users may associate the malicious activity with the legitimate domain.
 
-#### Evidence
-![ZAP Alert](../images/external_redirect_ZAP.JPG)
-![Successful Redirect](../images/successful_redirect_CNN.JPG)
+#### Technical Details
+- **Parameter:** `TransferUrl`
+- **Input Vector:** URL Query String
+- **CWE ID:** 601 (URL Redirect Abuse)
 
 #### Recommendations
 - Implement a whitelist for allowed redirect URLs.
@@ -51,11 +52,12 @@ Referer: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX...
 ```
 
 #### Impact
-- **Server Resource Exhaustion**: The server may become unresponsive, affecting availability.
-- **Service Downtime**: Legitimate users are unable to access resources.
+- **Server Resource Exhaustion:** The server may become unresponsive, affecting availability.
+- **Service Downtime:** Legitimate users are unable to access resources.
 
-#### Evidence
-![Nessus DoS Alert](../images/Dos_vuln_SpectrumXXI.PNG)
+#### Technical Details
+- **Vulnerability Type:** HTTP Header Memory Exhaustion
+- **CWE ID:** 400 (Uncontrolled Resource Consumption)
 
 #### Recommendations
 - Configure a reverse proxy to filter out malformed or excessively large headers.
@@ -69,10 +71,11 @@ Referer: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX...
 A web form contained password fields with the `autocomplete` attribute enabled, which may allow passwords to be saved in browsers and retrieved by unauthorized users.
 
 #### Impact
-- **Credential Exposure**: Sensitive credentials may be auto-filled on shared or compromised systems.
+- **Credential Exposure:** Sensitive credentials may be auto-filled on shared or compromised systems.
 
-#### Evidence
-![Password Autocomplete Alert](../images/password_autocomplete_global_protect.PNG)
+#### Technical Details
+- **Field Affected:** Password input field
+- **CWE ID:** 549 (Missing Password Masking)
 
 #### Recommendations
 - Add the `autocomplete="off"` attribute to all password fields in the web application.
@@ -85,11 +88,12 @@ A web form contained password fields with the `autocomplete` attribute enabled, 
 During testing, a session signout error was observed, which could lead to user frustration or unauthorized access if sessions are not invalidated correctly.
 
 #### Impact
-- **User Confusion**: Users are unable to sign out properly.
-- **Unauthorized Access**: Sessions may persist beyond their intended lifespan.
+- **User Confusion:** Users are unable to sign out properly.
+- **Unauthorized Access:** Sessions may persist beyond their intended lifespan.
 
-#### Evidence
-![Session Signout Error](../images/sign_out_issue.JPG)
+#### Technical Details
+- **Issue:** Persistent session cookies after logout
+- **CWE ID:** 613 (Insufficient Session Expiration)
 
 #### Recommendations
 - Ensure that session cookies are cleared properly on logout.
@@ -103,11 +107,12 @@ During testing, a session signout error was observed, which could lead to user f
 ServiceNow instances were observed to expose sensitive functionality or misconfigured options, potentially leading to unauthorized data access or manipulation.
 
 #### Impact
-- **Sensitive Data Exposure**: Attackers may gain access to internal data.
-- **Unauthorized Changes**: Critical configurations could be altered.
+- **Sensitive Data Exposure:** Attackers may gain access to internal data.
+- **Unauthorized Changes:** Critical configurations could be altered.
 
-#### Evidence
-![ServiceNow Misconfiguration](../images/servicenow_Wapp.JPG)
+#### Technical Details
+- **Platform:** ServiceNow
+- **CWE ID:** 285 (Improper Access Control)
 
 #### Recommendations
 - Restrict access to the ServiceNow administrative interface.
