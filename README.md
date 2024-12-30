@@ -29,6 +29,7 @@ Each section showcases sanitized findings, the tools and methodologies used, and
 - [Git Misconfigurations](./Git_Misconfigurations.md)
 - [Drupal Findings](./Drupal_Findings.md)
 - [Miscellaneous Findings](./Miscellaneous_Findings)
+- [Contracted Penetration Test Findings](./Contracted_Penetration_Test_Findings.md)
 
 ## Tools Used 🔧
 | Tool            | Purpose                        |
