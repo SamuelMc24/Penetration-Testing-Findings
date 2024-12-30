@@ -26,8 +26,8 @@ Each section showcases sanitized findings, the tools and methodologies used, and
 - [Information Disclosures](./Information_Disclosures.md)
 - [FTP Misconfigurations](./FTP_Misconfigurations.md)
 - [WordPress User Enumeration](./WordPress_User_Enumeration.md)
-- [Git Misconfigurations](./Git_Misconfigurations)
-- [Drupal Findings](./Drupal_Findings)
+- [Git Misconfigurations](./Git_Misconfigurations.md)
+- [Drupal Findings](./Drupal_Findings.md)
 - [Miscellaneous Findings](./Miscellaneous_Findings)
 
 ## Tools Used 🔧
