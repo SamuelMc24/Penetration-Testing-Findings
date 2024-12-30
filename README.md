@@ -2,12 +2,15 @@
 
 ![Repository Overview](https://img.shields.io/badge/status-active-brightgreen) ![License](https://img.shields.io/badge/license-MIT-green) ![Technologies](https://img.shields.io/badge/tools-Burp%20Suite%2C%20Kali%20Linux%2C%20Dalfox%2C%20XSStrike-blue)
 
-## Table of Contents
-- [Overview 📖]
-- [Categories of Findings 📊]
-- [Tools Used 🔧]
-- [Purpose 🌐]
-- [Disclaimer ⚠️]
+## Summary 🚀
+This repository serves as a comprehensive showcase of vulnerabilities identified and exploited during real-world penetration tests conducted at ECS Federal. It highlights key findings across various categories, including Cross-Site Scripting (XSS), End-of-Life (EOL) Software, and Information Disclosures, among others.
+
+Key Features:
+- 🌐 Real-world examples of exploited vulnerabilities.
+- 🛠️ Insights into tools and methodologies used for penetration testing.
+- 📊 Organized findings categorized for clarity and relevance.
+
+By exploring this repository, you will gain an understanding of how vulnerabilities are identified, validated, and addressed, demonstrating practical expertise in cybersecurity.
 
 ## Overview 📖
 This repository highlights real-world vulnerabilities exploited during my time as a Penetration Tester at ECS Federal, where I contributed to securing government systems through both continuous monitoring and scheduled penetration testing. Working under a contract covering over 25,000 hosts across various government bureaus, I identified and exploited vulnerabilities in systems, networks, and web applications.
