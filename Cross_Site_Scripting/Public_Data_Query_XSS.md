@@ -15,16 +15,16 @@ A **Reflected Cross-Site Scripting (XSS)** vulnerability was identified in a pub
   - 🌐 Redirection to Malicious Websites
 
 **Example Payloads:**
-1. `<script>alert(1)</script>`
+1. `<script>alert(document.cookie)</script>`
 2. `javascript:alert(1)`
-3. `<img src=x onerror=alert(document.cookie)>`
+3. `<script\x20type="text/javascript">javascript:alert(1);</script>`
 
 ---
 
 ## Exploitation Steps 🧩
 1. Navigate to the public data application's URL with a vulnerable `query` parameter.
 2. Inject a crafted payload into the query string.
-   - Example: `https://example.com/data?query=<script>alert(1)</script>`
+   - Example: `https://example.com/data?query=<script>alert(document.cookie)</script>`
 3. Observe the script execution or redirection occurring due to the reflected payload.
 
 ---
