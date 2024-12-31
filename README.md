@@ -34,7 +34,6 @@ Each section showcases sanitized findings, the tools and methodologies used, and
 - [Miscellaneous Findings](./Miscellaneous_Findings)
 - [Contracted Penetration Test Findings](./Contracted_Penetration_Test_Findings.md)
 
----
 
 ## Methodologies 🛠️
 
@@ -47,7 +46,6 @@ Dive into my **[Penetration Testing Methodologies](./Methodologies.md)** to expl
 
 By adhering to structured methodologies, I ensure a thorough, repeatable, and efficient penetration testing process that meets industry standards and adapts to evolving security challenges.
 
----
 
 
 ## Tools Used 🔧
