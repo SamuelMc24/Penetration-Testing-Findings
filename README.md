@@ -34,6 +34,22 @@ Each section showcases sanitized findings, the tools and methodologies used, and
 - [Miscellaneous Findings](./Miscellaneous_Findings)
 - [Contracted Penetration Test Findings](./Contracted_Penetration_Test_Findings.md)
 
+---
+
+## Methodologies 🛠️
+
+Dive into my **[Penetration Testing Methodologies](./Methodologies.md)** to explore the systematic approaches I use to uncover vulnerabilities, assess security risks, and recommend remediations. This section covers:
+
+- **Reconnaissance and Information Gathering:** Techniques for collecting actionable intelligence about target systems.
+- **Exploitation Tactics:** Real-world methods to demonstrate the impact of identified vulnerabilities.
+- **Validation and Retesting:** Ensuring mitigations are effective and vulnerabilities no longer pose a risk.
+- **Reporting Best Practices:** Delivering clear, actionable, and impactful reports to stakeholders.
+
+By adhering to structured methodologies, I ensure a thorough, repeatable, and efficient penetration testing process that meets industry standards and adapts to evolving security challenges.
+
+---
+
+
 ## Tools Used 🔧
 | Tool            | Purpose                        |
 |-----------------|--------------------------------|
